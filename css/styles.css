@@ -344,6 +344,7 @@ button {
   border-radius: 0;
 }
 
+
 button:focus:not(:focus-visible) {
   outline: 0;
 }
@@ -599,7 +600,16 @@ progress {
 
 .img-fluid {
   max-width: 100%;
-  height: auto;
+  height: 11em;
+  margin: 2%;
+  border-radius: 6%;
+}
+
+.img-button{
+  max-width: 100%;
+  height: 3em;
+  margin: 2%;
+  border-radius: 6%;
 }
 
 .img-thumbnail {
@@ -2312,6 +2322,13 @@ textarea.form-control-lg {
 .form-check-inline {
   display: inline-block;
   margin-right: 1rem;
+}
+
+.btn-painter{
+  text-align: right;
+  left: 2px;
+  height: 2.5em;
+  padding: 2em;
 }
 
 .btn-check {
